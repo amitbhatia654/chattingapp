@@ -1,10 +1,11 @@
 import './App.css';
 import React from 'react';
+import ChatUIPage from './ChatUIPage.jsx';
 
 function App() {
   return (
     <div >
-      This is Chatting App
+      <ChatUIPage></ChatUIPage>
     </div>
   );
 }
